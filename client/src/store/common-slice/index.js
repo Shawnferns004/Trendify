@@ -11,7 +11,7 @@ export const getFeatureImages = createAsyncThunk(
   async () => {
     const response = await axios.get(
 <<<<<<< HEAD
-      `http://localhost:5000/api/common/feature/get`
+      `https://trendify-89pa.onrender.com/api/common/feature/get`
 =======
       `https://miniproject-3-0-5.onrender.com/api/common/feature/get`
 >>>>>>> ea81859248473b7b0deb991bc69e9f5c709f04c6
@@ -26,7 +26,7 @@ export const addFeatureImage = createAsyncThunk(
   async (image) => {
     const response = await axios.post(
 <<<<<<< HEAD
-      `http://localhost:5000/api/common/feature/add`,
+      `https://trendify-89pa.onrender.com/api/common/feature/add`,
 =======
       `https://miniproject-3-0-5.onrender.com/api/common/feature/add`,
 >>>>>>> ea81859248473b7b0deb991bc69e9f5c709f04c6

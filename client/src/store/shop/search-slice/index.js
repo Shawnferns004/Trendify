@@ -10,11 +10,7 @@ export const getSearchResults = createAsyncThunk(
   "/order/getSearchResults",
   async (keyword) => {
     const response = await axios.get(
-<<<<<<< HEAD
-      `http://localhost:5000/api/shop/search/${keyword}`
-=======
-      `https://miniproject-3-0-5.onrender.com/api/shop/search/${keyword}`
->>>>>>> ea81859248473b7b0deb991bc69e9f5c709f04c6
+      `https://trendify-89pa.onrender.com/api/shop/search/${keyword}`
     );
 
     return response.data;

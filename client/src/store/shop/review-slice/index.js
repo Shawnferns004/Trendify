@@ -11,7 +11,7 @@ export const addReview = createAsyncThunk(
   async (formdata) => {
     const response = await axios.post(
 <<<<<<< HEAD
-      `http://localhost:5000/api/shop/review/add`,
+      `https://trendify-89pa.onrender.com/api/shop/review/add`,
 =======
       `https://miniproject-3-0-5.onrender.com/api/shop/review/add`,
 >>>>>>> ea81859248473b7b0deb991bc69e9f5c709f04c6
@@ -25,7 +25,7 @@ export const addReview = createAsyncThunk(
 export const getReviews = createAsyncThunk("/order/getReviews", async (id) => {
   const response = await axios.get(
 <<<<<<< HEAD
-    `http://localhost:5000/api/shop/review/${id}`
+    `https://trendify-89pa.onrender.com/api/shop/review/${id}`
 =======
     `https://miniproject-3-0-5.onrender.com/api/shop/review/${id}`
 >>>>>>> ea81859248473b7b0deb991bc69e9f5c709f04c6

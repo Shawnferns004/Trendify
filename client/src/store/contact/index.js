@@ -5,7 +5,7 @@ export const submitContactForm = createAsyncThunk(
   'contact/submit',
   async (formData) => {
 <<<<<<< HEAD
-    const response = await fetch('http://localhost:5000/api/contact/send', {
+    const response = await fetch('https://trendify-89pa.onrender.com/api/contact/send', {
 =======
     const response = await fetch('https://miniproject-3-0-5.onrender.com/api/contact/send', {
 >>>>>>> ea81859248473b7b0deb991bc69e9f5c709f04c6

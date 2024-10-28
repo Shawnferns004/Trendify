@@ -13,7 +13,7 @@ export const registerUser = createAsyncThunk(
   async (formData) => {
     const response = await axios.post(
 <<<<<<< HEAD
-      "http://localhost:5000/api/auth/register",
+      "https://trendify-89pa.onrender.com/api/auth/register",
 =======
       "https://miniproject-3-0-5.onrender.com/api/auth/register",
 >>>>>>> ea81859248473b7b0deb991bc69e9f5c709f04c6
@@ -33,7 +33,7 @@ export const loginUser = createAsyncThunk(
   async (formData) => {
     const response = await axios.post(
 <<<<<<< HEAD
-      "http://localhost:5000/api/auth/login",
+      "https://trendify-89pa.onrender.com/api/auth/login",
 =======
       "https://miniproject-3-0-5.onrender.com/api/auth/login",
 >>>>>>> ea81859248473b7b0deb991bc69e9f5c709f04c6
@@ -53,7 +53,7 @@ export const logoutUser = createAsyncThunk(
   async () => {
     const response = await axios.post(
 <<<<<<< HEAD
-      "http://localhost:5000/api/auth/logout",
+      "https://trendify-89pa.onrender.com/api/auth/logout",
 =======
       "https://miniproject-3-0-5.onrender.com/api/auth/logout",
 >>>>>>> ea81859248473b7b0deb991bc69e9f5c709f04c6
@@ -73,7 +73,7 @@ export const checkAuth = createAsyncThunk(
   async () => {
     const response = await axios.get(
 <<<<<<< HEAD
-      "http://localhost:5000/api/auth/check-auth",
+      "https://trendify-89pa.onrender.com/api/auth/check-auth",
 =======
       "https://miniproject-3-0-5.onrender.com/api/auth/check-auth",
 >>>>>>> ea81859248473b7b0deb991bc69e9f5c709f04c6

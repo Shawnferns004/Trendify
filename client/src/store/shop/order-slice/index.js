@@ -13,11 +13,8 @@ export const createNewOrder = createAsyncThunk(
   "/order/createNewOrder",
   async (orderData) => {
     const response = await axios.post(
-<<<<<<< HEAD
-      "http://localhost:5000/api/shop/order/create",
-=======
-      "https://miniproject-3-0-5.onrender.com/api/shop/order/create",
->>>>>>> ea81859248473b7b0deb991bc69e9f5c709f04c6
+      "https://trendify-89pa.onrender.com/api/shop/order/create",
+
       orderData
     );
 
@@ -29,11 +26,8 @@ export const capturePayment = createAsyncThunk(
   "/order/capturePayment",
   async ({ paymentId, payerId, orderId }) => {
     const response = await axios.post(
-<<<<<<< HEAD
-      "http://localhost:5000/api/shop/order/capture",
-=======
-      "https://miniproject-3-0-5.onrender.com/api/shop/order/capture",
->>>>>>> ea81859248473b7b0deb991bc69e9f5c709f04c6
+      "https://trendify-89pa.onrender.com/api/shop/order/capture",
+
       {
         paymentId,
         payerId,
@@ -49,11 +43,7 @@ export const getAllOrdersByUserId = createAsyncThunk(
   "/order/getAllOrdersByUserId",
   async (userId) => {
     const response = await axios.get(
-<<<<<<< HEAD
-      `http://localhost:5000/api/shop/order/list/${userId}`
-=======
-      `https://miniproject-3-0-5.onrender.com/api/shop/order/list/${userId}`
->>>>>>> ea81859248473b7b0deb991bc69e9f5c709f04c6
+      `https://trendify-89pa.onrender.com/api/shop/order/list/${userId}`
     );
 
     return response.data;
@@ -64,11 +54,8 @@ export const getOrderDetails = createAsyncThunk(
   "/order/getOrderDetails",
   async (id) => {
     const response = await axios.get(
-<<<<<<< HEAD
-      `http://localhost:5000/api/shop/order/details/${id}`
-=======
-      `https://miniproject-3-0-5.onrender.com/api/shop/order/details/${id}`
->>>>>>> ea81859248473b7b0deb991bc69e9f5c709f04c6
+      `https://trendify-89pa.onrender.com/api/shop/order/details/${id}`
+
     );
 
     return response.data;

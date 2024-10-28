@@ -11,7 +11,7 @@ export const addNewProduct = createAsyncThunk(
   async (formData) => {
     const result = await axios.post(
 <<<<<<< HEAD
-      "http://localhost:5000/api/admin/products/add",
+      "https://trendify-89pa.onrender.com/api/admin/products/add",
 =======
       "https://miniproject-3-0-5.onrender.com/api/admin/products/add",
 >>>>>>> ea81859248473b7b0deb991bc69e9f5c709f04c6
@@ -32,7 +32,7 @@ export const fetchAllProducts = createAsyncThunk(
   async () => {
     const result = await axios.get(
 <<<<<<< HEAD
-      "http://localhost:5000/api/admin/products/get"
+      "https://trendify-89pa.onrender.com/api/admin/products/get"
 =======
       "https://miniproject-3-0-5.onrender.com/api/admin/products/get"
 >>>>>>> ea81859248473b7b0deb991bc69e9f5c709f04c6
@@ -47,7 +47,7 @@ export const editProduct = createAsyncThunk(
   async ({ id, formData }) => {
     const result = await axios.put(
 <<<<<<< HEAD
-      `http://localhost:5000/api/admin/products/edit/${id}`,
+      `https://trendify-89pa.onrender.com/api/admin/products/edit/${id}`,
 =======
       `https://miniproject-3-0-5.onrender.com/api/admin/products/edit/${id}`,
 >>>>>>> ea81859248473b7b0deb991bc69e9f5c709f04c6
@@ -68,7 +68,7 @@ export const deleteProduct = createAsyncThunk(
   async (id) => {
     const result = await axios.delete(
 <<<<<<< HEAD
-      `http://localhost:5000/api/admin/products/delete/${id}`
+      `https://trendify-89pa.onrender.com/api/admin/products/delete/${id}`
 =======
       `https://miniproject-3-0-5.onrender.com/api/admin/products/delete/${id}`
 >>>>>>> ea81859248473b7b0deb991bc69e9f5c709f04c6

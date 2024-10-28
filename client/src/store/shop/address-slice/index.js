@@ -10,11 +10,7 @@ export const addNewAddress = createAsyncThunk(
   "/addresses/addNewAddress",
   async (formData) => {
     const response = await axios.post(
-<<<<<<< HEAD
-      "http://localhost:5000/api/shop/address/add",
-=======
-      "https://miniproject-3-0-5.onrender.com/api/shop/address/add",
->>>>>>> ea81859248473b7b0deb991bc69e9f5c709f04c6
+      "https://trendify-89pa.onrender.com/api/shop/address/add",
       formData
     );
 
@@ -26,11 +22,7 @@ export const fetchAllAddresses = createAsyncThunk(
   "/addresses/fetchAllAddresses",
   async (userId) => {
     const response = await axios.get(
-<<<<<<< HEAD
-      `http://localhost:5000/api/shop/address/get/${userId}`
-=======
-      `https://miniproject-3-0-5.onrender.com/api/shop/address/get/${userId}`
->>>>>>> ea81859248473b7b0deb991bc69e9f5c709f04c6
+      `https://trendify-89pa.onrender.com/api/shop/address/get/${userId}`
     );
 
     return response.data;
@@ -41,11 +33,8 @@ export const editaAddress = createAsyncThunk(
   "/addresses/editaAddress",
   async ({ userId, addressId, formData }) => {
     const response = await axios.put(
-<<<<<<< HEAD
-      `http://localhost:5000/api/shop/address/update/${userId}/${addressId}`,
-=======
-      `https://miniproject-3-0-5.onrender.com/api/shop/address/update/${userId}/${addressId}`,
->>>>>>> ea81859248473b7b0deb991bc69e9f5c709f04c6
+          `https://trendify-89pa.onrender.com/api/shop/address/update/${userId}/${addressId}`,
+
       formData
     );
 
@@ -57,11 +46,7 @@ export const deleteAddress = createAsyncThunk(
   "/addresses/deleteAddress",
   async ({ userId, addressId }) => {
     const response = await axios.delete(
-<<<<<<< HEAD
-      `http://localhost:5000/api/shop/address/delete/${userId}/${addressId}`
-=======
-      `https://miniproject-3-0-5.onrender.com/api/shop/address/delete/${userId}/${addressId}`
->>>>>>> ea81859248473b7b0deb991bc69e9f5c709f04c6
+      `https://trendify-89pa.onrender.com/api/shop/address/delete/${userId}/${addressId}`,
     );
 
     return response.data;
