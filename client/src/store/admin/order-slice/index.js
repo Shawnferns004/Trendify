@@ -10,11 +10,8 @@ export const getAllOrdersForAdmin = createAsyncThunk(
   "/order/getAllOrdersForAdmin",
   async () => {
     const response = await axios.get(
-<<<<<<< HEAD
       `https://trendify-89pa.onrender.com/api/admin/orders/get`
-=======
-      `https://miniproject-3-0-5.onrender.com/api/admin/orders/get`
->>>>>>> ea81859248473b7b0deb991bc69e9f5c709f04c6
+
     );
 
     return response.data;
@@ -25,11 +22,7 @@ export const getOrderDetailsForAdmin = createAsyncThunk(
   "/order/getOrderDetailsForAdmin",
   async (id) => {
     const response = await axios.get(
-<<<<<<< HEAD
       `https://trendify-89pa.onrender.com/api/admin/orders/details/${id}`
-=======
-      `https://miniproject-3-0-5.onrender.com/api/admin/orders/details/${id}`
->>>>>>> ea81859248473b7b0deb991bc69e9f5c709f04c6
     );
 
     return response.data;
@@ -40,11 +33,7 @@ export const updateOrderStatus = createAsyncThunk(
   "/order/updateOrderStatus",
   async ({ id, orderStatus }) => {
     const response = await axios.put(
-<<<<<<< HEAD
       `https://trendify-89pa.onrender.com/api/admin/orders/update/${id}`,
-=======
-      `https://miniproject-3-0-5.onrender.com/api/admin/orders/update/${id}`,
->>>>>>> ea81859248473b7b0deb991bc69e9f5c709f04c6
       {
         orderStatus,
       }

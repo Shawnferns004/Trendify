@@ -50,11 +50,7 @@ function ProductImageUpload({
     const data = new FormData();
     data.append("my_file", imageFile);
     const response = await axios.post(
-<<<<<<< HEAD
       "https://trendify-89pa.onrender.com/api/admin/products/upload-image",
-=======
-      "https://miniproject-3-0-5.onrender.com/api/admin/products/upload-image",
->>>>>>> ea81859248473b7b0deb991bc69e9f5c709f04c6
       data
     );
     console.log(response, "response");

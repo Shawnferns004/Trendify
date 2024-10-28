@@ -13,11 +13,8 @@ export const subscribe = createAsyncThunk(
   'subscription/subscribe',
   async (email, { rejectWithValue }) => {
     try {
-<<<<<<< HEAD
       const response = await fetch('https://trendify-89pa.onrender.com/api/subscribe', {
-=======
-      const response = await fetch('https://miniproject-3-0-5.onrender.com/api/subscribe', {
->>>>>>> ea81859248473b7b0deb991bc69e9f5c709f04c6
+
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
